@@ -1,0 +1,73 @@
+
+
+:root {
+  
+}
+
+body {
+  font-family: 'Architects Daughter', cursive;
+  background-color: var(--primary-color);
+  align-items: center;
+}
+
+/* Navigation */
+.navigation {
+  border-bottom-left-radius: 1.5rem;
+  font-size: 1.3cm;
+  font-weight: bolder;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  margin: -0.5rem;
+  margin-bottom: 2cm;
+}
+
+/* text area sty */
+.sty {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-family: 'Architects Daughter', cursive;
+  font-size: 0.8cm;
+  font-weight: bolder;
+}
+
+/* input text */
+#ip {
+  width: 482px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20vh;
+  border-color: var(--secondary-color );
+  border-style: groove;
+  border-radius: 2mm;
+}
+
+::placeholder {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-family: 'Architects Daughter', cursive;
+  font-size: 0.8cm;
+  font-weight: bolder;
+}
+
+
+/* Translate button */
+#btn-translate {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 60px;
+  margin-bottom: 1.5cm;
+}
+
+/* Output */
+#op {
+  width: 482px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 17vh;
+  border-color: var(--secondary-color );
+  border-style: groove;
+  border-radius: 2mm;
+}
