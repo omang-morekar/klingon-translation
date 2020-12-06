@@ -46,6 +46,7 @@ body {
   border-style: groove;
   border-radius: 2mm;
   margin-bottom: 2cm;
+  font-size: 0.475cm;
 }
 
 ::placeholder {
@@ -78,4 +79,5 @@ body {
   border-color: var(--secondary-color );
   border-style: groove;
   border-radius: 2mm;
+  font-size: 0.475cm;
 }
